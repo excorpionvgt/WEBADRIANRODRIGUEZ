@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
-<head><meta charset="UTF-8"><title>UCLA</title>
-<link rel="stylesheet" href="./css/styles.css"></head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>UCLA - Nodo ARPANET</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
 <body>
-    <nav>
-    <a href="index.html">Inicio</a> |
-    <a href="ucla.html">UCLA</a> |
-    <a href="stanford.html">SRI Stanford</a> |
-    <a href="ucsb.html">UCSB</a> |
-    <a href="utah.html">University of Utah</a>
-</nav>  
-<h1>UCLA</h1>
+    <header>
+        <nav aria-label="Navegación principal">
+            <a href="index.html" class="logo">ARPANET</a>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="ucla.html">UCLA</a></li>
+                <li><a href="stanford.html">SRI Stanford</a></li>
+                <li><a href="ucsb.html">UCSB</a></li>
+                <li><a href="utah.html">University of Utah</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<h2>Historia</h2>
-<p>
-La Universidad de California en Los Ángeles (UCLA) fue el lugar donde se instaló el primer nodo de ARPANET el 29 de octubre de 1969. 
-Desde su laboratorio de Ingeniería, dirigido por <strong>Leonard Kleinrock</strong>, se envió el primer mensaje de la historia de Internet.
-<br><br>
-El mensaje pretendía ser la palabra “LOGIN”, pero la red falló tras enviar las dos primeras letras, transmitiendo únicamente “LO”. 
-Este error se considera un acontecimiento histórico, ya que representó el primer intercambio digital entre computadoras remotas.
-</p>
+    <main class="container">
+        <h1>UCLA</h1>
 
-<h2>Aportes a ARPANET</h2>
-<ul>
-    <li>Desarrollo de la teoría fundamental de conmutación de paquetes.</li>
-    <li>Primeros experimentos en comunicación remota entre computadoras.</li>
-    <li>Pruebas iniciales de protocolos que luego inspirarían TCP/IP.</li>
-</ul>
+        <section>
+            <h2>El papel de UCLA</h2>
+            <p>
+                La Universidad de California en Los Ángeles (UCLA) fue el nodo desde el que se envió el primer mensaje por ARPANET en octubre de 1969. El equipo de laboratorio trabajó en integración de terminales, pruebas de comunicación y registro de fallos.
+            </p>
+        </section>
 
-<h2>Personalidades ilustres</h2>
-<ul>
-    <li><strong>Leonard Kleinrock</strong>: pionero en redes y padre de la conmutación de paquetes.</li>
-    <li><strong>Vinton Cerf</strong>: uno de los “padres de Internet”; estudió aquí.</li>
-    <li><strong>Jon Postel</strong>: gestor del sistema de nombres de dominio (DNS).</li>
-    <li><strong>Steve Crocker</strong>: creó el primer documento RFC de la historia.</li>
-</ul>
+        <section>
+            <h2>Investigación y contribuciones técnicas</h2>
+            <ul>
+                <li>Modelado de tráfico y teoría de colas aplicada a redes.</li>
+                <li>Pruebas de terminales remotos y transferencia de archivos.</li>
+                <li>Documentación y análisis de logs que ayudaron a mejorar protocolos.</li>
+            </ul>
+        </section>
 
-<hr>
-<h3>Enlaces</h3>
-<a href="ucla.html">UCLA</a><br>
-<a href="stanford.html">SRI (Stanford)</a><br>
-<a href="ucsb.html">UCSB</a><br>
-<a href="utah.html">University of Utah</a><br>
-<a href="index.html">Volver a inicio</a>
+        <section>
+            <h2>Material histórico</h2>
+            <p>
+                Archivos de laboratorio, reproducciones de logs y memorias técnicas están disponibles en repositorios universitarios y colecciones sobre historia de la informática. Estos materiales describen la configuración del IMP y resultados de las primeras pruebas.
+            </p>
+        </section>
+
+        <section class="contact">
+            <h3>Más información</h3>
+            <p><a href="index.html">Volver a la página principal</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ARPANET — Proyecto educativo</p>
+    </footer>
 </body>
 </html>
